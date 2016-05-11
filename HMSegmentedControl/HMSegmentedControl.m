@@ -128,6 +128,7 @@
     self.scrollView.scrollsToTop = NO;
     self.scrollView.showsVerticalScrollIndicator = NO;
     self.scrollView.showsHorizontalScrollIndicator = NO;
+    self.scrollView.bounces = NO;
     [self addSubview:self.scrollView];
     
     _backgroundColor = [UIColor whiteColor];
